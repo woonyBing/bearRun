@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .backBg {
+            background-color: lightgray;
+            width: 600px;
+            height: 250px;
+            position:relative;
+
+        }
+        .bgEarth {
+            border: 1px solid black;
+            width: 600px;
+            position:absolute;
+            top:85%
+        }
+        .bear {
+            width:50px;
+            height: 50px;
+            background-color: black;
+            position:absolute;
+            top:65%;
+            margin-left: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>bear game</h1>
+    </div>
+    <div class="backBg">
+        <div class="bear"></div>
+        <div class="bgEarth"></div>
+    </div>
+
+    <script src="./bearrun.js">
+    </script>
+</body>
+</html>
