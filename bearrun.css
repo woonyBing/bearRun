@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.backBg {
+    background-color: lightgray;
+    width: 600px;
+    height: 250px;
+    position:relative;
+
+}
+.bgEarth {
+    border: 1px solid black;
+    width: 600px;
+    position:absolute;
+    top:85%
+}
+.bear {
+    width:100%;
+    margin-left: 30px;
+}
+
+.bearEarL{
+    background-color: rgb(75, 75, 75);
+    width: 5px;
+    height: 5px;
+    float: left;
+    margin-left: 5px;
+}
+.bearEarR{
+    background-color: rgb(75, 75, 75);
+    width: 5px;
+    height: 5px;
+    margin-left: 20px;
+}
+.bearFace {
+    background-color: rgb(75, 75, 75);
+    width: 30px;
+    height: 25px;
+}
+.bearEye {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top:10px; left:50px;
+}
+.bearNose{
+    background-color: rgb(75, 75, 75);
+    width: 2px;
+    height: 3px;
+    position: absolute;
+    top:18px; left: 60px;
+}
